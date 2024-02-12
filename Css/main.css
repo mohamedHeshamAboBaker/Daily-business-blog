@@ -1,0 +1,111 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(64, 87, 118);
+    color: white;
+    height: 3rem;
+    z-index: -1;
+}
+
+.nav .fa-plus-square {
+    margin-right: 1rem;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.nav #light {
+    margin-left: 1rem;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.myh1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: #3f51b5;
+}
+
+.myh2 {
+    margin-left: 3rem;
+}
+
+
+
+.mycheack input {
+    margin-left: 1.5rem;
+    margin-top: -2rem;
+}
+
+ .Mycheakbox {
+    margin-left: 1.5rem;
+    margin-right: .5rem;
+    font-weight: 600;
+    display: flex;
+   
+}
+
+.sec1 {
+    z-index: -1;
+}
+
+.pearnt {
+    background-color: rgb(64, 87, 118);
+    padding: .5rem 0;
+    color: #00BCD4;
+    margin-bottom: .5rem;
+}
+
+.sec2 {
+    z-index: 9999999999;
+    background-color: #3f51b556;
+    backdrop-filter: blur(.5rem);
+    height: 100;
+    position: fixed;
+    top: 3rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.sec2 input {
+    width: 50vh;
+    outline: none;
+    border: .001px solid rgb(46, 46, 161);
+    border-radius: 4%;
+    text-align: center;
+}
+
+.sec2 label {
+    font-size: 20px;
+    font-weight: 800;
+    color: #3f51b5;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.sec2 div {
+    margin-top: 32vh;;
+    margin-left: 45vh;
+}
+
+.btn1 {
+    text-align: center;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin: auto;
+    background-color: #3f51b5;
+    color: #00BCD4;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    font-size: larger;
+}
+.sec1 label{
+    margin-left: 3rem;
+    font-size: large;
+    font-weight: 700;
+}
